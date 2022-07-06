@@ -1,0 +1,25 @@
+.cards-container {
+  overflow-x: auto;
+  display: flex;
+  width: 100%;
+  height: 700px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.cards-container::-webkit-scrollbar {
+  width: 20px;
+}
+
+.cards-container::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+  margin:10px;
+
+}
+
+.cards-container::-webkit-scrollbar-thumb {
+
+  background: #F37878; 
+  border-radius: 10px;
+}
